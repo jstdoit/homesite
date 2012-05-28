@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  p_name: MyString
+  p_category: 1
+
+two:
+  p_name: MyString
+  p_category: 1

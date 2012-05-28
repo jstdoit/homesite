@@ -1,4 +1,10 @@
 Homesite::Application.routes.draw do
+  resources :products
+
+  get "users/create"
+
+  resources :users
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

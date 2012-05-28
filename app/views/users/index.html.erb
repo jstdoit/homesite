@@ -1,0 +1,5 @@
+<ul>
+	<% @users.each do |user| %>
+		<li><%= "#{user.name}/#{user.email} &emsp; ".html_safe  %><%= link_to "View", user %></li>
+	<% end %>
+</ul>
